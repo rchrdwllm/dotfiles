@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+source "$HOME/.cache/wal/colors.sh"
+
+swaylock \
+--screenshots \
+--indicator \
+--clock \
+--font 'CartographCF Nerd Font:style=Thin,Regular 40' \
+--inside-wrong-color "$color2"  \
+--ring-wrong-color "$color5" \
+--inside-clear-color "$background" \
+--ring-clear-color "$color2" \
+--inside-ver-color "$color3" \
+--ring-ver-color "$color3" \
+--text-color  "$foreground" \
+--indicator-radius 80 \
+--indicator-thickness 5 \
+--effect-blur 10x20 \
+--effect-vignette 0.2:0.2 \
+--ring-color "$background" \
+--key-hl-color "$color5" \
+--bs-hl-color "$color2" \
+--line-color "$color5" \
+--inside-color "$background" \
+--separator-color "$color2" \
+--fade-in 0.5 &

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+swww init
+
+hyprpaper
+
+wal -R
