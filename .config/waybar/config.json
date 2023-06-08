@@ -4,6 +4,7 @@
     "modules-left": ["custom/launcher", "cpu", "memory", "wlr/workspaces", "custom/spotify"],
     "modules-right": [
         "tray",
+        "custom/wallpaper",
         "bluetooth",
         "network",
         "pulseaudio",
@@ -32,8 +33,7 @@
         "rotate": 0,
         "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "{:%d %b, %H:%M}",
-        "format-alt": "{:%a %b %d, %G}",
-        "on-click-right": "~/.config/waybar/scripts/wallpaper.sh"
+        "format-alt": "{:%a %b %d, %G}"
     },
     "bluetooth": {
         "format": "",
@@ -41,14 +41,14 @@
     },
     "cpu": {
         "interval": 10,
-        "format": "  {}%",
+        "format": " {}%",
         "max-length": 10,
         "on-click": ""
     },
     "memory": {
         "interval": 30,
-        "format": "  {}%",
-        "format-alt": "  {used:0.1f}GB",
+        "format": " {}%",
+        "format-alt": " {used:0.1f}GB",
         "max-length": 10
     },
     "backlight": {
@@ -119,5 +119,10 @@
     "custom/launcher": {
         "format": " ",
         "on-click": "zsh ~/.config/rofi/scripts/launcher_t1"
+    },
+    "custom/wallpaper": {
+        "format": "",
+        "on-click": "zsh ~/.config/rofi/scripts/wallpaper_t1",
+        "on-click-right": "~/.config/waybar/scripts/wallpaper.sh"
     }
 }

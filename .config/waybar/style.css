@@ -25,12 +25,12 @@ window#waybar.hidden {
 #memory,
 #custom-media,
 #tray,
-#bluetooth,
 #mode,
 #workspaces,
 #battery,
 #idle_inhibitor,
 #custom-power-menu,
+#custom-wallpaper,
 #custom-launcher,
 #custom-spotify,
 #custom-weather,
@@ -51,16 +51,18 @@ window#waybar.hidden {
     margin: 6px 3px 0;
 }
 
-#bluetooth {
-    color: @color15;
+#custom-launcher {
+    color: @color9;
+    padding: 0 12px 0 16px;
+    margin-left: 8px;
 }
 
 #cpu {
-    color: @color15;
+    color: @color10;
 }
 
 #memory {
-    color: @color15;
+    color: @color11;
 }
 
 #workspaces button {
@@ -92,12 +94,25 @@ window#waybar.hidden {
     margin-right: 0;
 }
 
-#custom-launcher {
-    color: @color9;
-    padding: 0 16px;
-    margin-left: 8px;
+#tray > .passive {
+    -gtk-icon-effect: dim;
 }
 
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #eb4d4b;
+}
+
+#custom-spotify {
+    color: @color10;
+}
+
+#custom-wallpaper {
+    padding: 0 14px 0 12px;
+    color: @color14;
+}
+
+#bluetooth,
 #backlight,
 #pulseaudio,
 #network {
@@ -106,18 +121,25 @@ window#waybar.hidden {
     margin: 6px 0 0;
 }
 
-#network {
+#bluetooth {
+    border-radius: 8px 0px 0px 8px;
+    color: @color12;
+    padding-left: 12px;
+    padding-right: 14px;
     margin-left: 3px;
 }
 
-#backlight {
-    margin-right: 3px;
-    padding: 0 14px 0 8px;
+#network {
+    color: @color13;
+}
+
+#network.disconnected {
+    color: @color11;
 }
 
 #pulseaudio {
     color: @color15;
-    padding: 0 8px;
+    color: @color13;
 }
 
 #pulseaudio.muted {
@@ -125,24 +147,14 @@ window#waybar.hidden {
 }
 
 #backlight {
-    color: @color15;
+    margin-right: 3px;
+    padding: 0 14px 0 8px;
+    color: @color13;
     border-radius: 0 8px 8px 0;
 }
 
-#network {
-    padding-left: 0.2em;
-    color: @color15;
-    border-radius: 8px 0px 0px 8px;
-    padding-left: 12px;
-    padding-right: 14px;
-}
-
-#network.disconnected {
-    color: @color11;
-}
-
 #battery {
-    color: @color15;
+    color: @color9;
     border-radius: 8px;
     padding: 0 12px;
 }
@@ -154,22 +166,22 @@ window#waybar.hidden {
     color: @color15;
 }
 
+#clock {
+    color: @color12;
+    font-weight: bold;
+}
+
+#custom-power-menu {
+    color: @color11;
+    margin-right: 8px;
+    padding: 0 12px 0 10px;
+}
+
 @keyframes blink {
     to {
         background-color: rgba(30, 34, 42, 0.5);
         color: #abb2bf;
     }
-}
-
-#clock {
-    color: @color15;
-    font-weight: bold;
-}
-
-#custom-power-menu {
-    color: @color9;
-    margin-right: 8px;
-    padding: 0 15px 0 10px;
 }
 
 tooltip {
@@ -185,17 +197,4 @@ tooltip label {
 
 label:focus {
     background-color: @background;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
-}
-
-#custom-spotify {
-    color: @foreground;
 }

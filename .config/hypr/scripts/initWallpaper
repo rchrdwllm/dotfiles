@@ -2,6 +2,5 @@
 
 swww init
 
-hyprpaper
-
-wal -R
+wal -R --cols16
+pywalfox update
