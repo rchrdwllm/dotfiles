@@ -1,7 +1,8 @@
 {
     "height": 40, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
-    "modules-left": ["custom/launcher", "cpu", "memory", "wlr/workspaces", "custom/spotify"],
+    "modules-left": ["custom/launcher", "cpu", "memory", "custom/spotify", "battery"],
+    "modules-center": ["wlr/workspaces"],
     "modules-right": [
         "tray",
         "custom/wallpaper",
@@ -9,7 +10,6 @@
         "network",
         "pulseaudio",
         "backlight",
-        "battery",
         "clock",
         "custom/power-menu"
     ],
