@@ -114,15 +114,15 @@
     },
     "custom/power-menu": {
         "format": " ⏻ ",
-        "on-click": "zsh ~/.config/rofi/scripts/powermenu_t1"
+        "on-click": "~/.config/rofi/scripts/powermenu_t1"
     },
     "custom/launcher": {
         "format": " ",
-        "on-click": "zsh ~/.config/rofi/scripts/launcher_t1"
+        "on-click": "~/.config/rofi/scripts/launcher_t1"
     },
     "custom/wallpaper": {
         "format": "",
-        "on-click": "zsh ~/.config/rofi/scripts/wallpaper_t1",
+        "on-click": "~/.config/rofi/scripts/wallpaper_t1",
         "on-click-right": "~/.config/waybar/scripts/wallpaper.sh"
     }
 }

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export PATH="${PATH}:${HOME}/.local/bin/"
 
@@ -25,3 +25,6 @@ swww img $wallpaper --transition-type grow --transition-fps 60 --transition-dura
 
 wal -i $wallpaper --cols16
 pywalfox update
+pywal-discord -t default
+
+. "${HOME}/.config/mako/update-theme.sh"
