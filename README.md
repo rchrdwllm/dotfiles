@@ -6,9 +6,13 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 
 -   Select a wallpaper with `Super + W` and see the colors change
 -   Discord, Spotify, VS Code, and Firefox are also themed
--   Open the launcher with `Super + D` and power menu with `Super + X`
--   Search anything on the internet with `Super + Space`
--   Terminal can be opened with `Super + Enter`
+-   Launcher: `Super + D`
+-   Power menu: `Super + X`
+-   Search anything on the internet: `Super + Space`
+-   Terminal: `Super + Enter`
+-   Firefox: `CTRL + Alt + W`
+-   Discord: `CTRL + Alt + D`
+-   Spotify: `CTRL + Alt + S`
 -   Some of the waybar configs:
     -   Right click on the wallpaper button on your bar to set a random wallpaper and set colors from it
     -   Click on the bluetooth icon to open `blueberry`
