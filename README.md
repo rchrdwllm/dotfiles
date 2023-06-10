@@ -1,6 +1,6 @@
 # @rchrdwllm's Hyprland Rice on Arch Linux
 
-Here are my configuration files for this rice. This rice relies heavily on [Pywal](https://github.com/dylanaraps/pywal).
+Here are my configuration files for this rice. This rice relies heavily on [Pywal](https://github.com/dylanaraps/pywal). Colors change as you change your wallpaper!
 
 ![](https://raw.githubusercontent.com/rchrdwllm/dotfiles/master/Screenshots/relaxed_mario.png)
 
