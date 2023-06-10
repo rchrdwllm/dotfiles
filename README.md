@@ -55,6 +55,30 @@ Here are the apps that I normally have installed on distros that I use. Feel fre
 paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
 ```
 
+## Setting up Oh My Zsh and Powerlevel10k Theme
+
+Do these first before copying the `.zshrc` and `.p10k.zsh` files to your home directory:
+
+-   Install first Oh My Zsh by running this command:
+    ```
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
+-   Install the Powerlevel10k theme:
+    ```
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    ```
+-   Install the syntax highlighting plugin and the autosuggestions plugin:
+
+    ```
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+
+    ```
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+
+    After that, you can now copy the `.zshrc` and `.p10k.zsh` files to your home directory.
+
 ## Installing Pywal
 
 If you want the regular Pywal, you can install it with `paru -S python-pywal`. But if you want 16 colors to be generated (which I use in this), you can install it by:
