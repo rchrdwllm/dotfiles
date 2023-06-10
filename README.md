@@ -77,7 +77,7 @@ Do these first before copying the `.zshrc` and `.p10k.zsh` files to your home di
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
 
-    After that, you can now copy the `.zshrc` and `.p10k.zsh` files to your home directory.
+After that, you can now copy the `.zshrc` and `.p10k.zsh` files to your home directory.
 
 ## Installing Pywal
 
