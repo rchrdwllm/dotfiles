@@ -71,3 +71,7 @@ Note that you need to restart Spotify everytime the colors are changed. This pro
 Login with Discord first, then run `betterdiscordctl install` in your terminal, that will install Better Discord.
 
 There's a short and easy-to-follow guide for setting up Discord with Pywal [here](https://github.com/FilipLitwora/pywal-discord).
+
+## Credits
+
+I got the waybar setup from [@1amSimp1e's dotfiles](https://github.com/1amSimp1e/dots) and modified them a bit!
