@@ -10,7 +10,7 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 
 ![](https://raw.githubusercontent.com/rchrdwllm/dotfiles/master/Screenshots/apex_octane.png)
 
-If you want to use these dotfiles on your machine, you may need to run these commands first:
+If you want to use these dotfiles on your machine, you may need to run these commands first. Please use these dotfiles at your own risk !!!
 
 ## Installing Hyprland
 
