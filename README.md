@@ -78,6 +78,10 @@ Login with Discord first, then run `betterdiscordctl install` in your terminal, 
 
 There's a short and easy-to-follow guide for setting up Discord with Pywal [here](https://github.com/FilipLitwora/pywal-discord).
 
+## Some note
+
+I don't know about you but in case you're experiencing a super slow reboot or shutdown with this, I followed [this](https://www.reddit.com/r/archlinux/comments/whsqdq/comment/ij9r90h/?utm_source=reddit&utm_medium=web2x&context=3) Reddit comment and it helped! Not really sure why that's happening, though.
+
 ## Credits
 
 I got the waybar setup from [@1amSimp1e's dotfiles](https://github.com/1amSimp1e/dots) and modified them a bit!
