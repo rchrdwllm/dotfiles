@@ -2,6 +2,19 @@
 
 Here are my configuration files for this rice. This rice relies heavily on [Pywal](https://github.com/dylanaraps/pywal). Colors change as you change your wallpaper!
 
+## Some features and configs
+
+-   Select a wallpaper with `Super + W` and see the colors change
+-   Discord, Spotify, VS Code, and Firefox are also themed
+-   Open the launcher with `Super + D` and power menu with `Super + X`
+-   Search anything on the internet with `Super + Space`
+-   Terminal can be opened with `Super + Enter`
+-   Some of the waybar configs:
+    -   Right click on the wallpaper button on your bar to set a random wallpaper and set colors from it
+    -   Click on the bluetooth icon to open `blueberry`
+    -   Click on the wifi icon to open `nmtui`
+    -   Click on the audio icon to open `pavucontrol`
+
 ![](https://raw.githubusercontent.com/rchrdwllm/dotfiles/master/Screenshots/relaxed_mario.png)
 
 ![](https://raw.githubusercontent.com/rchrdwllm/dotfiles/master/Screenshots/desert.png)
