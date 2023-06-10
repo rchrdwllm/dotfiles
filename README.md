@@ -17,7 +17,7 @@ If you want to use these dotfiles on your machine, you may need to run these com
 I have `paru` as my AUR helper. You can use whatever you want!
 
 ```
-paru -S wayland libdrm pixman libxkbcommon python libxml2 llvm libpng gegl mtdev xorg-xwayland qt5-wayland qt6-wayland hyprland swww waybar xdg-desktop-portal-wlr wlroots xdg-desktop-portal
+paru -S wayland libdrm pixman libxkbcommon python libxml2 llvm libpng gegl mtdev xorg-xwayland qt5-wayland qt6-wayland hyprland swww waybar neofetch xdg-desktop-portal-wlr wlroots xdg-desktop-portal
 ```
 
 ## Fonts
