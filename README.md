@@ -45,7 +45,12 @@ Once done, you can go ahead and copy the files to their respective directories a
 
 ## Setting up Firefox
 
-If you use Firefox and want to have Pywal colors, download the theme extension [here.](https://addons.mozilla.org/en-US/firefox/addon/pywalfox/) After that, go ahead and run `pywalfox update` in your terminal. Once done, you don't need to worry about manually updating the colors everytime you change your wallpaper. A script already takes care of that BUT you do need to manually restart Firefox to apply the new colors.
+If you use Firefox and want to have Pywal colors:
+
+-   Download the theme extension [here.](https://addons.mozilla.org/en-US/firefox/addon/pywalfox/)
+-   Run `pywalfox update` in your terminal.
+
+Once done, you don't need to worry about manually updating the colors everytime you change your wallpaper. A script already takes care of that BUT you do need to manually restart Firefox to apply the new colors.
 
 As for the custom CSS, I followed this guide [here](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/). The `userChrome.css` can be found in `.config/firefox/home/style.css`. Be sure to modify line 2 (replace "uiriamu" with your Linux username).
 
