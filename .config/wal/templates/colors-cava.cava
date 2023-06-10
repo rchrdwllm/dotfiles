@@ -1,0 +1,11 @@
+[color]
+
+; background = {background}
+; foreground = {foreground}
+
+gradient = 1
+gradient_count = 4
+gradient_color_1 = '{color10}'
+gradient_color_2 = '{color11}'
+gradient_color_3 = '{color12}'
+gradient_color_4 = '{color13}'

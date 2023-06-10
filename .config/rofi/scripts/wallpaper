@@ -1,0 +1,32 @@
+#!/bin/bash
+
+export PATH="${PATH}:${HOME}/.local/bin/"
+
+dir="$HOME/.config/rofi/launchers/type-1"
+theme='style-1'
+
+wallpapers=$HOME/Wallpapers
+image="$(ls $wallpapers | rofi -dmenu -i -p "  Select wallpaper: " -theme ${dir}/${theme}.rasi)"
+wallpaper=$wallpapers/$image
+
+if [[ -d $wallpapers/$image ]]; then
+    echo "$wallpapers/$image is a directory"
+    wallpaper_temp="$image"
+    sleep2
+    wallpaper_location="$(ls $wallpapers/$image | wofi -n --show dmenu -k "/dev/null")"
+elif [[ -f $wallpapers/$image ]]; then
+    echo "$wallpapers/$image is a file"
+else
+    echo "$wallpapers/$image is not valid"
+    exit 1
+fi
+
+swww img $wallpaper --transition-type grow --transition-fps 60 --transition-duration 1.0 --transition-bezier 0.65,0,0.35,1 --transition-step 255
+
+wal -i $wallpaper --cols16
+pywalfox update
+pywal-discord -t default
+
+. $HOME/.config/mako/update-colors.sh
+. $HOME/.config/spicetify/Themes/Pywal/update-colors.sh
+. $HOME/.config/cava/scripts/update-colors.sh

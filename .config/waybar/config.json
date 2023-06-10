@@ -41,13 +41,13 @@
     },
     "cpu": {
         "interval": 10,
-        "format": " {}%",
+        "format": "  {}%",
         "max-length": 10,
         "on-click": ""
     },
     "memory": {
         "interval": 30,
-        "format": " {}%",
+        "format": "  {}%",
         "format-alt": " {used:0.1f}GB",
         "max-length": 10
     },
@@ -114,15 +114,15 @@
     },
     "custom/power-menu": {
         "format": " ⏻ ",
-        "on-click": "~/.config/rofi/scripts/powermenu_t1"
+        "on-click": "~/.config/rofi/scripts/powermenu"
     },
     "custom/launcher": {
         "format": " ",
-        "on-click": "~/.config/rofi/scripts/launcher_t1"
+        "on-click": "~/.config/rofi/scripts/launcher"
     },
     "custom/wallpaper": {
         "format": "",
-        "on-click": "~/.config/rofi/scripts/wallpaper_t1",
+        "on-click": "~/.config/rofi/scripts/wallpaper",
         "on-click-right": "~/.config/waybar/scripts/wallpaper.sh"
     }
 }
