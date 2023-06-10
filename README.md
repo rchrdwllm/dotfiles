@@ -16,7 +16,9 @@ If you want to use these dotfiles on your machine, you may need to run these com
 
 I have `paru` as my AUR helper. You can use whatever you want!
 
-```paru -S wayland libdrm pixman libxkbcommon python libxml2 llvm libpng gegl mtdev xorg-xwayland qt5-wayland qt6-wayland hyprland swww waybar xdg-desktop-portal-wlr wlroots xdg-desktop-portal```
+```
+paru -S wayland libdrm pixman libxkbcommon python libxml2 llvm libpng gegl mtdev xorg-xwayland qt5-wayland qt6-wayland hyprland swww waybar xdg-desktop-portal-wlr wlroots xdg-desktop-portal
+```
 
 ## Fonts
 
@@ -26,7 +28,9 @@ I'm using the [Cartograph CF](https://connary.com/cartograph.html). It's a paid 
 
 Here are the apps that I normally have installed on distros that I use. Feel free to remove those that you're not using anyway.
 
-```paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc```
+```
+paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
+```
 
 ## Installing Pywal
 
