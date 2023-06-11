@@ -4,7 +4,7 @@ export PATH="${PATH}:${HOME}/.local/bin/"
 
 swww init
 
-if [ -d "${HOME}/.cache/wal" ]; then
+if [ -e "${HOME}/.cache/wal/colors" ]; then
     wal -R --cols16
     pywalfox update
     pywal-discord -t default
