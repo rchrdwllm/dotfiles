@@ -18,7 +18,6 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Power menu: `Super + X`
 -   Search anything on the internet: `Super + Space`
 -   Terminal: `Super + Enter`
--   Floating terminal: `Super + Alt + Enter`
 -   Ranger: `Super + Shift + Enter`
 -   VS Code: `CTRL + Alt + V`
 -   Firefox: `CTRL + Alt + W`
