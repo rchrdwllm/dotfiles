@@ -71,10 +71,8 @@ paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git tel
 
 ## Setting up `sddm` and bluetooth
 
--   Install `sddm` by `paru -S sddm`
--   Enable it by `systemctl enable sddm.service`
+-   Enable `sddm` by `systemctl enable sddm.service`
 -   Next, enable bluetooth by `systemctl enable bluetooth.service`
-
 
 ## Setting up Oh My Zsh and Powerlevel10k Theme
 
@@ -109,6 +107,8 @@ If you want the regular Pywal, you can install it with `paru -S python-pywal`. B
 
 ## Copying the dotfiles
 
+Once done, you can run the `install.sh` script found in this dotfiles directory and do a reboot after. Then, proceed to the next section.
+
 Once done, you can go ahead and copy the files to their respective directories and do a reboot. Be sure to check out the [some notes](#some-notes) section in this README. An `install.sh` script does exist but it still hasn't been tested and and is still WIP.
 
 ## Setting up VS Code
@@ -131,6 +131,13 @@ If you want to have the custom Firefox homepage, be sure to modify line 1 in `.c
 ## Setting up Spotify
 
 -   Open and login with Spotify first.
+-   Run these in your terminal:
+
+    ```
+    sudo chmod a+wr /opt/spotify
+    sudo chmod a+wr /opt/spotify/Apps -R
+    ```
+
 -   Once done, initially run `spicetify backup apply` in your terminal.
 -   Then you can set the theme by running `spicetify config current_theme Pywal` in your terminal to set the color theme.
 
