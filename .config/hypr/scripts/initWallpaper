@@ -9,7 +9,7 @@ if [ -d "${HOME}/.cache/wal" ]; then
     pywalfox update
     pywal-discord -t default
 
-    echo "Cached colors exists. Using existing colors."
+    echo "Cached colors exist. Using existing colors."
 else
     DIR=$HOME/Wallpapers
     PICS=($(ls ${DIR}))
