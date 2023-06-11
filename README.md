@@ -13,10 +13,11 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
     -   Workspace 4: Files (Thunar and ranger)
     -   Workspace 5: No apps yet but reserved for office and productivity apps
     -   Workspace 6: Social media such as Discord (Telegram as well but it won't obey window rules)
-    -   Workspace 7: Spotify and cava (music visualizer)
+    -   Workspace 7: Spotify and `cava` (music visualizer)
 -   Launcher: `Super + D`
 -   Power menu: `Super + X`
 -   Search anything on the internet: `Super + Space`
+-   Select emojis: `Super + ;`
 -   Terminal: `Super + Enter`
 -   Ranger: `Super + Shift + Enter`
 -   VS Code: `CTRL + Alt + V`
@@ -54,12 +55,8 @@ paru -S wayland libdrm pixman libxkbcommon python libxml2 llvm libpng gegl mtdev
 ## Setting up volume, brightness, and other stuff
 
 ```
-paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightnessctl pavucontrol alsa-utils grim slurp wl-clipboard mpv nm-applet python-pip rofi blueberry bluez bluez-utils ranger ts-node zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd inotify-tools sddm-sugar-candy-git thunar ark playerctl pamixer whitesur-icon-theme-git whitesur-cursor-theme-git whitesur-gtk-theme-git xdg-user-dirs nwg-look-bin python-pillow python-pywalfox pywal-discord-git mako-git viewnior gnome-keyring neofetch imagemagick
+paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightnessctl pavucontrol alsa-utils grim slurp wl-clipboard mpv nm-applet python-pip rofi blueberry bluez bluez-utils ranger ts-node zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd inotify-tools sddm-sugar-candy-git thunar ark playerctl pamixer whitesur-icon-theme-git whitesur-cursor-theme-git whitesur-gtk-theme-git xdg-user-dirs nwg-look-bin python-pillow python-pywalfox pywal-discord-git mako-git viewnior gnome-keyring neofetch imagemagick wtype inter-font-beta
 ```
-
-## Fonts
-
-I'm using the [Cartograph CF](https://connary.com/cartograph.html). It's a paid font and worth every penny. If you don't want to use the same font, go ahead and use those that you wish (be sure to replace them in the .config files for kitty, mako, rofi, waybar, etc.).
 
 ## Installing all other applications
 
@@ -73,6 +70,10 @@ paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git tel
 
 -   Enable `sddm` by `systemctl enable sddm.service`
 -   Next, enable bluetooth by `systemctl enable bluetooth.service`
+
+## Fonts
+
+I'm using the [Cartograph CF](https://connary.com/cartograph.html). It's a paid font and worth every penny. If you don't want to use the same font, go ahead and use those that you wish (be sure to replace them in the .config files for kitty, mako, rofi, waybar, etc.).
 
 ## Setting up Oh My Zsh and Powerlevel10k Theme
 
