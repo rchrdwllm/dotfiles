@@ -69,6 +69,13 @@ Here are the apps that I normally have installed on distros that I use. Feel fre
 paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
 ```
 
+## Setting up `sddm` and bluetooth
+
+-   Install `sddm` by `paru -S sddm`
+-   Enable it by `systemctl enable sddm.service`
+-   Next, enable bluetooth by `systemctl enable bluetooth.service`
+
+
 ## Setting up Oh My Zsh and Powerlevel10k Theme
 
 Do these first before copying the `.zshrc` and `.p10k.zsh` files to your home directory:
