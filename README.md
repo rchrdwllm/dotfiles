@@ -10,9 +10,12 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Power menu: `Super + X`
 -   Search anything on the internet: `Super + Space`
 -   Terminal: `Super + Enter`
+-   VS Code: `CTRL + Alt + V`
 -   Firefox: `CTRL + Alt + W`
 -   Discord: `CTRL + Alt + D`
 -   Spotify: `CTRL + Alt + S`
+-   Open Facebook in Firefox: `CTRL + Alt + F`
+-   Open Capacities in Firefox: `CTRL + Alt + C`
 -   Some of the waybar configs:
     -   Right click on the wallpaper button on your bar to set a random wallpaper and set colors from it
     -   Click on the bluetooth icon to open `blueberry`
@@ -115,7 +118,7 @@ If you want to have the custom Firefox homepage, be sure to modify line 1 in `.c
 
 Open Spotify and you should be good to go.
 
-Note that you need to restart Spotify everytime the colors are changed. This process will be automatically done if you run Spotify using the `CTRL + ALT + S` keybind that I've set in `hyprland.conf` (you can change this keybind to whatever you want).
+Note that you need to restart Spotify everytime the colors are changed. This process will be automatically done if you run Spotify using the `CTRL + Alt + S` keybind that I've set in `hyprland.conf` (you can change this keybind to whatever you want).
 
 ## Setting up Discord
 
