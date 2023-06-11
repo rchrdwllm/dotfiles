@@ -92,7 +92,7 @@ Once done, you can go ahead and copy the files to their respective directories a
 
 ## Setting up VS Code
 
-There's a [Pywal](https://marketplace.visualstudio.com/items?itemName=dlasagno.wal-theme) theme for VS Code. Colors will automatically update in VS Code as well.
+There's a [Pywal](https://marketplace.visualstudio.com/items?itemName=dlasagno.wal-theme) theme for VS Code. Colors will automatically update as well once you apply the theme.
 
 ## Setting up Firefox
 
