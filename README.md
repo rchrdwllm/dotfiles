@@ -101,7 +101,7 @@ If you want the regular Pywal, you can install it with `paru -S python-pywal`. B
 
 ## Copying the dotfiles
 
-Once done, you can go ahead and copy the files to their respective directories and do a reboot. An `install.sh` script does exist but it still hasn't been tested and and is still WIP.
+Once done, you can go ahead and copy the files to their respective directories and do a reboot. Be sure to check out the [some notes](#some-notes) section in this README. An `install.sh` script does exist but it still hasn't been tested and and is still WIP.
 
 ## Setting up VS Code
 
@@ -136,10 +136,12 @@ Login with Discord first, then run `betterdiscordctl install` in your terminal, 
 
 There's a short and easy-to-follow guide for setting up Discord with Pywal [here](https://github.com/FilipLitwora/pywal-discord).
 
-## Some note
-
-I don't know about you but in case you're experiencing a super slow reboot or shutdown with this, I followed [this](https://www.reddit.com/r/archlinux/comments/whsqdq/comment/ij9r90h/?utm_source=reddit&utm_medium=web2x&context=3) Reddit comment and it helped! Not really sure why that's happening, though.
-
 ## Credits
 
 I got the waybar setup from [@1amSimp1e's dotfiles](https://github.com/1amSimp1e/dots) and modified them a bit!
+
+## Some notes <a name="some-notes"></a>
+
+I don't know about you but in case you're experiencing a super slow reboot or shutdown with this, I followed [this](https://www.reddit.com/r/archlinux/comments/whsqdq/comment/ij9r90h/?utm_source=reddit&utm_medium=web2x&context=3) Reddit comment and it helped! Not really sure why that's happening, though.
+
+If you get an error on line 60 of `hyprland.conf` after rebooting saying that colors couldn't be found, just run `hyprctl reload` in your terminal. Once this is resolved, it shouldn't happen anymore for future reboots.
