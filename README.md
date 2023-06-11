@@ -33,6 +33,8 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
     -   Click on the bluetooth icon to open `blueberry`
     -   Click on the wifi icon to open `nmtui`
     -   Click on the audio icon to open `pavucontrol`
+-   Run `hyprcfg` in your terminal to edit your `hyprland.conf` file
+-   Run `waycfg` in your terminal to open your waybar config folder
 
 ![](https://raw.githubusercontent.com/rchrdwllm/dotfiles/master/Screenshots/relaxed_mario.png)
 
