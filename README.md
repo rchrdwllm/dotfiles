@@ -6,6 +6,14 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 
 -   Select a wallpaper with `Super + W` and see the colors change
 -   Discord, Spotify, VS Code, and Firefox are also themed
+-   Apps will open in their respective workspaces
+    -   Workspace 1: Terminal
+    -   Workspace 2: VS Code
+    -   Workspace 3: Firefox
+    -   Workspace 4: Files (Thunar and ranger)
+    -   Workspace 5: No apps yet but reserved for office and productivity apps
+    -   Workspace 6: Social media such as Discord (Telegram as well but it won't obey window rules)
+    -   Workspace 7: Spotify and cava (music visualizer)
 -   Launcher: `Super + D`
 -   Power menu: `Super + X`
 -   Search anything on the internet: `Super + Space`
@@ -14,8 +22,10 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Firefox: `CTRL + Alt + W`
 -   Discord: `CTRL + Alt + D`
 -   Spotify: `CTRL + Alt + S`
+-   Telegram: `CTRL + Alt + T`
 -   Open Facebook in Firefox: `CTRL + Alt + F`
 -   Open Capacities in Firefox: `CTRL + Alt + C`
+-   Open YouTube in Firefox: `CTRL + Alt + Y`
 -   Some of the waybar configs:
     -   Right click on the wallpaper button on your bar to set a random wallpaper and set colors from it
     -   Click on the bluetooth icon to open `blueberry`
