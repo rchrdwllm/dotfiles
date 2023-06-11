@@ -90,6 +90,10 @@ If you want the regular Pywal, you can install it with `paru -S python-pywal`. B
 
 Once done, you can go ahead and copy the files to their respective directories and do a reboot. An `install.sh` script does exist but it still hasn't been tested and and is still WIP.
 
+## Setting up VS Code
+
+There's a [Pywal](https://marketplace.visualstudio.com/items?itemName=dlasagno.wal-theme) theme for VS Code. Colors will automatically update in VS Code as well.
+
 ## Setting up Firefox
 
 If you use Firefox and want to have Pywal colors:
