@@ -160,3 +160,5 @@ I got the waybar setup from [@1amSimp1e's dotfiles](https://github.com/1amSimp1e
 I don't know about you but in case you're experiencing a super slow reboot or shutdown with this, I followed [this](https://www.reddit.com/r/archlinux/comments/whsqdq/comment/ij9r90h/?utm_source=reddit&utm_medium=web2x&context=3) Reddit comment and it helped! Not really sure why that's happening, though.
 
 If you get an error on line 60 of `hyprland.conf` after rebooting saying that colors couldn't be found, just run `hyprctl reload` in your terminal. Once this is resolved, it shouldn't happen anymore for future reboots.
+
+If you guys have any problems, you can reach me on Reddit [u/rchrdwllm](https://www.reddit.com/user/rchrdwllm), I'll be happy to help!
