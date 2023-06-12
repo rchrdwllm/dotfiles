@@ -165,4 +165,6 @@ I don't know about you but in case you're experiencing a super slow reboot or sh
 
 If you get an error on line 60 of `hyprland.conf` after rebooting saying that colors couldn't be found, be sure to check line 24. Replace "uiriamu" with your Linux username. After that, run `hyprctl reload` in your terminal. Once this is resolved, it shouldn't happen anymore for future reboots.
 
+This repo is also open to forks if you guys want to make changes of your own and take them into your own repository.
+
 If you guys have any problems, you can reach me on Reddit [u/rchrdwllm](https://www.reddit.com/user/rchrdwllm), I'll be happy to help!
