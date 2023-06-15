@@ -32,7 +32,7 @@
         "align": 0,
         "rotate": 0,
         "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%d %b, %H:%M}",
+        "format": "{:%d %b, %I:%M %p}",
         "format-alt": "{:%a %b %d, %G}"
     },
     "bluetooth": {
