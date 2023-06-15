@@ -16,6 +16,7 @@ swww img ${DIR}/${RANDOMPICS} --transition-type grow --transition-fps 60 --trans
 wal -i ${DIR}/${RANDOMPICS} --cols16
 pywalfox update
 pywal-discord -t default
+wal-telegram --wal
 
 . $HOME/.config/mako/update-colors.sh
 . $HOME/.config/spicetify/Themes/Pywal/update-colors.sh
