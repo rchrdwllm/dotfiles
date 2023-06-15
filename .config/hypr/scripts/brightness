@@ -4,8 +4,9 @@ iDIR="$HOME/.config/dunst/imgs"
 
 # Get brightness
 get_backlight() {
+	MAX=$(brightnessctl max)
 	LIGHT=$(printf "%.0f\n" $(brightnessctl get))
-	PERCENTAGE=$(expr 100 \* $LIGHT / 255)
+	PERCENTAGE=$(expr 100 \* $LIGHT / $MAX)
 	echo "${PERCENTAGE}%"
 }
 
