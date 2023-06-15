@@ -13,7 +13,7 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
     -   Workspace 3: Firefox
     -   Workspace 4: Files (Thunar and ranger)
     -   Workspace 5: No apps yet but reserved for office and productivity apps
-    -   Workspace 6: Social media such as Discord (Telegram as well but it won't obey window rules)
+    -   Workspace 6: Social media such as Discord and Telegram
     -   Workspace 7: Spotify and `cava` (music visualizer)
 -   Launcher: `Super + D`
 -   Power menu: `Super + X`
@@ -58,7 +58,7 @@ paru -S wayland libdrm pixman libxkbcommon python libxml2 llvm libpng gegl mtdev
 ## Setting up volume, brightness, and other stuff
 
 ```
-paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightnessctl pavucontrol alsa-utils grim slurp wl-clipboard mpv nm-applet python-pip rofi blueberry bluez bluez-utils ranger ts-node zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd inotify-tools sddm-sugar-candy-git thunar ark playerctl pamixer whitesur-icon-theme-git whitesur-cursor-theme-git whitesur-gtk-theme-git xdg-user-dirs nwg-look-bin python-pillow python-pywalfox pywal-discord-git mako-git viewnior gnome-keyring neofetch imagemagick wtype inter-font-beta rofi-emoji noto-fonts-emoji ttf-droid alsa-firmware tumbler
+paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightnessctl pavucontrol alsa-utils grim slurp wl-clipboard mpv nm-applet python-pip rofi blueberry bluez bluez-utils ranger ts-node zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd inotify-tools sddm-sugar-candy-git thunar ark playerctl pamixer whitesur-icon-theme-git whitesur-cursor-theme-git whitesur-gtk-theme-git xdg-user-dirs nwg-look-bin python-pillow python-pywalfox pywal-discord-git mako-git viewnior gnome-keyring neofetch imagemagick wtype inter-font-beta rofi-emoji noto-fonts-emoji ttf-droid alsa-firmware tumbler wal-telegram-git
 ```
 
 ## Installing all other applications
