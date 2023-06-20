@@ -12,6 +12,14 @@ sudo cp -r usr/share/sddm/themes/sugar-candy/* /usr/share/sddm/themes/sugar-cand
 sudo cp -r lib/sddm/sddm.conf.d/default.conf /lib/sddm/sddm.conf.d/
 
 echo "Successfully copied SDDM theme!"
+
+echo "Enabling services SDDM and bluetooth services..."
+
+systemctl enable sddm.service
+systemctl enable bluetooth.service
+
+echo "Successfully enabled services!"
+
 echo "You can now reboot your system to see changes"
 echo "Would you like to reboot now? (y/n)"
 
