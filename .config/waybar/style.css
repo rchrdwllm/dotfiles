@@ -55,14 +55,21 @@ window#waybar.hidden {
     color: @color9;
     padding: 0 12px 0 16px;
     margin-left: 8px;
+    border: 2px solid @color11;
 }
 
 #cpu {
     color: @color10;
+    border: 2px solid @color11;
 }
 
 #memory {
     color: @color11;
+    border: 2px solid @color11;
+}
+
+#workspaces {
+    border: 2px solid @color11;
 }
 
 #workspaces button {
@@ -91,6 +98,10 @@ window#waybar.hidden {
     margin-right: 0;
 }
 
+#tray {
+    border: 2px solid @color11;
+}
+
 #tray > .passive {
     -gtk-icon-effect: dim;
 }
@@ -102,11 +113,13 @@ window#waybar.hidden {
 
 #custom-spotify {
     color: @color10;
+    border: 2px solid @color11;
 }
 
 #custom-wallpaper {
     padding: 0 18px 0 12px;
     color: @color14;
+    border: 2px solid @color11;
 }
 
 #bluetooth,
@@ -122,23 +135,33 @@ window#waybar.hidden {
     border-radius: 8px 0px 0px 8px;
     color: @color12;
     margin-left: 3px;
+    border: 2px solid @color11;
+    border-right: none;
 }
 
 #network {
     color: @color13;
     padding-right: 14px;
+    border: 2px solid @color11;
+    border-right: none;
+    border-left: none;
 }
 
 #network.disconnected {
     color: @color11;
+    border: 2px solid @color11;
 }
 
 #pulseaudio {
     color: @color13;
+    border: 2px solid @color11;
+    border-left: none;
+    border-right: none;
 }
 
 #pulseaudio.muted {
     color: @color11;
+    border: 2px solid @color11;
 }
 
 #backlight {
@@ -146,12 +169,15 @@ window#waybar.hidden {
     padding-right: 8px;
     color: @color13;
     border-radius: 0 8px 8px 0;
+    border: 2px solid @color11;
+    border-left: none;
 }
 
 #battery {
     color: @color9;
     border-radius: 8px;
     padding: 0 12px;
+    border: 2px solid @color11;
 }
 
 #battery.critical,
@@ -164,12 +190,14 @@ window#waybar.hidden {
 #clock {
     color: @color12;
     font-weight: bold;
+    border: 2px solid @color11;
 }
 
 #custom-power-menu {
     color: @color11;
     margin-right: 8px;
     padding: 0 12px 0 10px;
+    border: 2px solid @color11;
 }
 
 @keyframes blink {
