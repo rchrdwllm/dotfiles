@@ -15,6 +15,7 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
     -   Workspace 5: No apps yet but reserved for office and productivity apps
     -   Workspace 6: Social media such as Discord and Telegram
     -   Workspace 7: Spotify and `cava` (music visualizer)
+-   Toggle full screen: `Super + F`
 -   Launcher: `Super + D`
 -   Power menu: `Super + X`
 -   Search anything on the internet: `Super + Space`
