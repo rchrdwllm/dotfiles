@@ -69,11 +69,6 @@ Here are the apps that I normally have installed on distros that I use. Feel fre
 paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
 ```
 
-## Setting up `sddm` and bluetooth
-
--   Enable `sddm` by `systemctl enable sddm.service`
--   Next, enable bluetooth by `systemctl enable bluetooth.service`
-
 ## Fonts
 
 I'm using the [Cartograph CF](https://connary.com/cartograph.html). It's a paid font and worth every penny. If you don't want to use the same font, go ahead and use those that you wish (be sure to replace them in the .config files for kitty, mako, rofi, waybar, etc.).
