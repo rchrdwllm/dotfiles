@@ -10,11 +10,11 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Apps will open in their respective workspaces
     -   Workspace 1: Terminal
     -   Workspace 2: VS Code
-    -   Workspace 3: Microsoft Edge and Firefox
-    -   Workspace 4: Files (Thunar and ranger)
-    -   Workspace 5: No apps yet but reserved for office and productivity apps
-    -   Workspace 6: Social media such as Discord and Telegram
-    -   Workspace 7: Spotify, Cider and `cava` (music visualizer)
+    -   Workspace 3: Browsers (Microsoft Edge and Firefox)
+    -   Workspace 4: Files (Thunar and `ranger`)
+    -   Workspace 5: Productivity (Capacities)
+    -   Workspace 6: Social media (Discord and Telegram)
+    -   Workspace 7: Music (Spotify, Cider, and `cava`)
 -   Toggle full screen: `Super + F`
 -   Launcher: `Super + D`
 -   Power menu: `Super + X`
