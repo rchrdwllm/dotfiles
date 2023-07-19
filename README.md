@@ -10,11 +10,11 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Apps will open in their respective workspaces
     -   Workspace 1: Terminal
     -   Workspace 2: VS Code
-    -   Workspace 3: Firefox
+    -   Workspace 3: Microsoft Edge and Firefox
     -   Workspace 4: Files (Thunar and ranger)
     -   Workspace 5: No apps yet but reserved for office and productivity apps
     -   Workspace 6: Social media such as Discord and Telegram
-    -   Workspace 7: Spotify and `cava` (music visualizer)
+    -   Workspace 7: Spotify, Cider and `cava` (music visualizer)
 -   Toggle full screen: `Super + F`
 -   Launcher: `Super + D`
 -   Power menu: `Super + X`
@@ -23,13 +23,14 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Terminal: `Super + Enter`
 -   Ranger: `Super + Shift + Enter`
 -   VS Code: `CTRL + Alt + V`
--   Firefox: `CTRL + Alt + W`
+-   Microsoft Edge: `CTRL + Alt + W`
 -   Discord: `CTRL + Alt + D`
+-   Cider: `CTRL + Alt + M`
 -   Spotify: `CTRL + Alt + S`
 -   Telegram: `CTRL + Alt + T`
--   Open Facebook in Firefox: `CTRL + Alt + F`
--   Open Capacities in Firefox: `CTRL + Alt + C`
--   Open YouTube in Firefox: `CTRL + Alt + Y`
+-   Open Facebook: `CTRL + Alt + F`
+-   Open Capacities: `CTRL + Alt + C`
+-   Open YouTube: `CTRL + Alt + Y`
 -   Some of the waybar configs:
     -   Right click on the wallpaper button on your bar to set a random wallpaper and set colors from it
     -   Click on the bluetooth icon to open `blueberry`
@@ -67,7 +68,7 @@ paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightne
 Here are the apps that I normally have installed on distros that I use. Feel free to remove those that you're not using anyway.
 
 ```
-paru -S firefox-developer-edition discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
+paru -S firefox-developer-edition microsoft-edge-stable-bin discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli cider visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
 ```
 
 ## Fonts
