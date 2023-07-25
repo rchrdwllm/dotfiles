@@ -110,7 +110,7 @@ If you want the regular Pywal, you can install it with `paru -S python-pywal`. B
 
 Once done, you can run the `install.sh` script found in this dotfiles directory and do a reboot after. Then, proceed to the next section.
 
-Once done, you can go ahead and copy the files to their respective directories and do a reboot. Be sure to check out the [some notes](#some-notes) section in this README. An `install.sh` script does exist but it still hasn't been tested and and is still WIP.
+Once done, you can go ahead and copy the files to their respective directories and do a reboot. Be sure to check out the [some notes](#some-notes) section in this README.
 
 ## Setting up VS Code
 
