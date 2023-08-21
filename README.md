@@ -60,7 +60,7 @@ paru -S wayland libdrm pixman libxkbcommon python libxml2 llvm libpng gegl mtdev
 ## Setting up volume, brightness, and other stuff
 
 ```
-paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightnessctl pavucontrol alsa-utils grim slurp wl-clipboard mpv nm-applet python-pip rofi blueberry bluez bluez-utils ranger ts-node zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd inotify-tools sddm-sugar-candy-git thunar ark playerctl pamixer whitesur-icon-theme-git whitesur-cursor-theme-git whitesur-gtk-theme-git xdg-user-dirs nwg-look-bin python-pillow python-pywalfox pywal-discord-git mako-git viewnior gnome-keyring neofetch imagemagick wtype inter-font-beta rofi-emoji noto-fonts-emoji ttf-droid alsa-firmware tumbler wal-telegram-git
+paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightnessctl pavucontrol alsa-utils grim slurp wl-clipboard mpv python-pip rofi blueberry bluez bluez-utils ranger ts-node zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd inotify-tools sddm-sugar-candy-git thunar ark playerctl pamixer whitesur-icon-theme-git whitesur-cursor-theme-git whitesur-gtk-theme-git xdg-user-dirs nwg-look-bin python-pillow python-pywalfox pywal-discord-git mako-git viewnior gnome-keyring neofetch imagemagick wtype inter-font-beta rofi-emoji noto-fonts-emoji ttf-droid alsa-firmware tumbler wal-telegram-git
 ```
 
 ## Installing all other applications
@@ -68,7 +68,7 @@ paru -S polkit-kde-agent kitty pcmanfm-qt neovim gedit swaylock-effects brightne
 Here are the apps that I normally have installed on distros that I use. Feel free to remove those that you're not using anyway.
 
 ```
-paru -S firefox-developer-edition microsoft-edge-stable-bin discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli cider visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
+paru -S google-chrome firefox-developer-edition microsoft-edge-stable-bin discord betterdiscordctl betterdiscord-git telegram-desktop spotify spicetify-cli cider visual-studio-code-bin cava cmatrix tty-clock pipes.sh obs-studio vlc
 ```
 
 ## Fonts
@@ -104,7 +104,7 @@ After that, you can now copy the `.zshrc` and `.p10k.zsh` files to your home dir
 If you want the regular Pywal, you can install it with `paru -S python-pywal`. But if you want 16 colors to be generated (which I use in this), you can install it by:
 
 -   Cloning [this](https://github.com/eylles/pywal16) repo
--   `cd` into the repo and run `pip3 install --user .`
+-   `cd` into the repo and run `pip3 install --user . --break-system-packages`
 
 ## Copying the dotfiles
 
