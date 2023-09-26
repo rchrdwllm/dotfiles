@@ -2,7 +2,7 @@
     "height": 40, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
     "modules-left": ["custom/launcher", "cpu", "memory", "custom/spotify", "battery"],
-    "modules-center": ["wlr/workspaces"],
+    "modules-center": ["hyprland/workspaces"],
     "modules-right": [
         "tray",
         "custom/wallpaper",
@@ -13,7 +13,7 @@
         "clock",
         "custom/power-menu"
     ],
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
