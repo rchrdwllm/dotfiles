@@ -14,11 +14,25 @@
         "custom/power-menu"
     ],
     "hyprland/workspaces": {
-        "format": "{icon}",
+        "all-outputs": true,
+        "active-only": false,
         "on-click": "activate",
+        "format": "{icon}",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
         "format-icons": {
-            "active": " 󰮯",
-            "default": "󰊠"
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "󰴒",
+            "5": "",
+            "6": "󰙯",
+            "7": "󰎈",
+            "urgent": "",
+            "default": ""
+        },
+        "persistent-workspaces": {
+            "*": 7
         }
     },
     "hyprland/window": {
@@ -117,7 +131,7 @@
         "on-click": "~/.config/rofi/scripts/powermenu"
     },
     "custom/launcher": {
-        "format": " ",
+        "format": "󰊠",
         "on-click": "~/.config/rofi/scripts/launcher"
     },
     "custom/wallpaper": {
