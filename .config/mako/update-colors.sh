@@ -18,5 +18,3 @@ for color_name in "${!colors[@]}"; do
 done
 
 makoctl reload
-
-notify-send "Wallpaper and colors updated"
