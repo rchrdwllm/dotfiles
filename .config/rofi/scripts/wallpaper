@@ -21,7 +21,9 @@ else
     exit 1
 fi
 
-swww img $wallpaper --transition-type grow --transition-fps 60 --transition-duration 1.0 --transition-bezier 0.65,0,0.35,1 --transition-step 255
+swww img $wallpaper --transition-type grow --transition-fps 60 --transition-duration 0.5 --transition-bezier 0.65,0,0.35,1 --transition-step 1
+
+sleep 1.25
 
 wal -i $wallpaper --cols16
 pywalfox update
@@ -29,5 +31,3 @@ pywal-discord -t default
 wal-telegram --wal
 
 . $HOME/.config/mako/update-colors.sh
-. $HOME/.config/spicetify/Themes/Pywal/update-colors.sh
-. $HOME/.config/cava/scripts/update-colors.sh
