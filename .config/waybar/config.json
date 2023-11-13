@@ -5,6 +5,7 @@
     "modules-center": ["hyprland/workspaces"],
     "modules-right": [
         "tray",
+        "custom/theme",
         "custom/wallpaper",
         "bluetooth",
         "network",
@@ -34,9 +35,6 @@
         "persistent-workspaces": {
             "*": 7
         }
-    },
-    "hyprland/window": {
-        "format": "{}"
     },
     "tray": {
         "spacing": 10
@@ -138,5 +136,9 @@
         "format": " ",
         "on-click": "~/.config/rofi/scripts/wallpaper",
         "on-click-right": "~/.config/waybar/scripts/wallpaper.sh"
+    },
+    "custom/theme": {
+        "format": "",
+        "on-click": "~/.config/waybar/scripts/theme.sh"
     }
 }

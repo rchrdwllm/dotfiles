@@ -34,6 +34,7 @@ window#waybar.hidden {
 #custom-launcher,
 #custom-spotify,
 #custom-weather,
+#custom-theme,
 #custom-weather.severe,
 #custom-weather.sunnyDay,
 #custom-weather.clearNight,
@@ -53,7 +54,7 @@ window#waybar.hidden {
 
 #custom-launcher {
     color: @color9;
-    padding: 0 12px 0 16px;
+    padding: 0 20px 0 20px;
     margin-left: 8px;
 }
 
@@ -72,15 +73,12 @@ window#waybar.hidden {
     color: @color11;
     box-shadow: inset 0 -3px transparent;
     margin-right: 0em;
-    padding-left: 4px;
     transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.68);
 }
 
 #workspaces button.active {
     color: @color9;
-    margin-left: 0em;
     margin-right: 0em;
-    padding-left: 0px;
     transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.68);
 }
 
@@ -113,6 +111,11 @@ window#waybar.hidden {
 #custom-wallpaper {
     padding: 0 18px 0 12px;
     color: @color14;
+}
+
+#custom-theme {
+    padding: 0 18px 0 12px;
+    color: @color13;
 }
 
 #bluetooth,
@@ -195,11 +198,13 @@ tooltip {
     border-radius: 15px;
     padding: 15px;
     background-color: @background;
+    color: @foreground;
     font-family: CartographCF Nerd Font;
 }
 
 tooltip label {
     padding: 5px;
+    color: @foreground;
 }
 
 label:focus {

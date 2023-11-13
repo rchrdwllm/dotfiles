@@ -25,7 +25,12 @@ swww img $wallpaper --transition-type grow --transition-fps 60 --transition-dura
 
 sleep 1.25
 
-wal -i $wallpaper --cols16
+if [[ "$(<~/.cache/wal/mode )" = "dark" ]]; then
+  wal -i $wallpaper --cols16
+elif [[ "$(<~/.cache/wal/mode )" = "light" ]]; then
+  wal -i $wallpaper -l --cols16
+fi
+
 pywalfox update
 pywal-discord -t default
 wal-telegram --wal
