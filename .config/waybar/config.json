@@ -133,7 +133,7 @@
         "on-click": "~/.config/rofi/scripts/launcher"
     },
     "custom/wallpaper": {
-        "format": " ",
+        "format": "",
         "on-click": "~/.config/rofi/scripts/wallpaper",
         "on-click-right": "~/.config/waybar/scripts/wallpaper.sh"
     },

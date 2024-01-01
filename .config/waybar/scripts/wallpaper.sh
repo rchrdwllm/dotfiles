@@ -21,7 +21,6 @@ elif [[ "$(<~/.cache/wal/mode )" = "light" ]]; then
   wal -i ${DIR}/${RANDOMPICS} -l --cols16
 fi
 
-pywalfox update
 pywal-discord -t default
 wal-telegram --wal
 

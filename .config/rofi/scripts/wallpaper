@@ -9,6 +9,10 @@ wallpapers=$HOME/Wallpapers
 image="$(ls $wallpapers | rofi -dmenu -i -p "  Select wallpaper: " -theme ${dir}/${theme}.rasi)"
 wallpaper=$wallpapers/$image
 
+if [[ $image == "" ]]; then
+    exit 1
+fi
+
 if [[ -d $wallpapers/$image ]]; then
     echo "$wallpapers/$image is a directory"
     wallpaper_temp="$image"
