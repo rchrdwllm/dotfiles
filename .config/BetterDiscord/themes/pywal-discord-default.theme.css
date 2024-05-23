@@ -12,27 +12,27 @@
     --wallpaper: url("/home/uiriamu/Wallpapers/volcano.png");
 
     /* Special */
-    --background: #f2f2f3;
-    --foreground: #3c3c3c;
-    --cursor: #3c3c3c;
+    --background: #010103;
+    --foreground: #bfbfc0;
+    --cursor: #bfbfc0;
 
     /* Colors */
-    --color0: #f2f2f3;
+    --color0: #010103;
     --color1: #147381;
     --color2: #4e7678;
     --color3: #586f88;
     --color4: #697387;
     --color5: #7c7885;
     --color6: #a78487;
-    --color7: #797979;
-    --color8: #b5b5b6;
+    --color7: #808081;
+    --color8: #404042;
     --color9: #1B9AAD;
     --color10: #699EA1;
     --color11: #7695B6;
     --color12: #8C9AB4;
     --color13: #A6A1B2;
     --color14: #DFB1B5;
-    --color15: #3c3c3c;
+    --color15: #bfbfc0;
 }
 /**  colors will come from .cache/wal/colors.css as variables defined in :root
  *  see: cat $HOME/.cache/wal/colors.css
