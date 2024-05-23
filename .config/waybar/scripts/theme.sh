@@ -43,7 +43,3 @@ else
 
     notify-send "Changed to light theme!"
 fi
-
-pywalfox update
-pywal-discord -t default
-wal-telegram --wal
