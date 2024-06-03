@@ -10,6 +10,7 @@
     --tab-inactive-color: var(--color0);
     --tab-fallback-color-active: var(--color15);
     --tab-fallback-color-inactive: var(--color15);
+    --toolbar-bgcolor: var(--color0);
 }
 
 /* Tab: selected colors */
@@ -21,4 +22,17 @@
 /* Tab: hide favicons */
 .tab-icon-stack:not([pinned]) {
     display: none !important;
+}
+
+#TabsToolbar {
+    background-color: var(--color0) !important;
+}
+
+
+#nav-bar {
+    background-color: var(--color0) !important;
+}
+
+#urlbar-background {
+    background-color: var(--color0) !important;
 }
